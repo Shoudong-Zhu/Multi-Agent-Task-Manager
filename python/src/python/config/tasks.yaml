@@ -1,0 +1,15 @@
+requirements_analysis_task:
+  description: "Analyze the comprehensive description of a Python application."
+  expected_output: "A detailed requirements document in markdown format."
+
+python_development_task:
+  description: "Develop the full Python application based on the detailed requirements."
+  expected_output: "A comprehensive Python application in app.py."
+
+testing_and_quality_assurance_task:
+  description: "Thoroughly test the Python application."
+  expected_output: "A review report detailing all testing procedures, discovered issues, and recommended enhancements."
+
+documentation_creation_task:
+  description: "Produce comprehensive and user-friendly documentation."
+  expected_output: "A README file containing setup guide, feature descriptions, and user tutorials."
