@@ -1,24 +1,3 @@
-# Task Manager Application
-
-## Overview
-
-This project is a basic Task Manager application that helps users manage their to-do tasks. The application includes features such as user registration, login, task creation, viewing, updating, and deletion. It is built using Python and utilizes a simple SQLite database to store user credentials and tasks.
-
-## Features
-
-1. **User Registration**: Users can register with a unique username and password.
-2. **User Login**: Registered users can log in to the application using their credentials.
-3. **Create Task**: Users can create new tasks by providing a title and description.
-4. **View Tasks**: Users can view a list of their created tasks.
-5. **Update Task**: Users can update the title and description of their existing tasks.
-6. **Delete Task**: Users can delete their tasks when they are completed.
-
-## Requirements
-
-- Python 3.8 or higher
-- `pip` package manager
-
-
 # Python Crew
 
 Welcome to the Python Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
