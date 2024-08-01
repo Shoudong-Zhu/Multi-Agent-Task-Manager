@@ -27,18 +27,18 @@ To start the application, run the following command:
 python app.py
 ```
 ### Interacting with the Application
-1. Register a New User
+1. **Register a New User**
 Open the application and navigate to the registration section. Provide a unique username and password to create a new account.
 
-2. Login
+2. **Login**
 
 Use the registered username and password to log in to the application.
 
-3. Create a Task
+3. **Create a Task**
 
 After logging in, navigate to the task creation section. Provide a title and description for the new task.
 
-4. View Tasks
+4. **View Tasks**
 
 View the list of all tasks you have created.
 
@@ -46,13 +46,12 @@ View the list of all tasks you have created.
 
 Select a task from the list and update its title and description.
 
-6. Delete a Task
+6. **Delete a Task**
 
 Select a task from the list and delete it once it is completed.
 
-7. Code Structure
+7. **Code Structure**
 ```arduino
-.
 ├── config/
 │   ├── agents.yaml
 │   ├── tasks.yaml
@@ -66,9 +65,9 @@ Select a task from the list and delete it once it is completed.
 ├── requirements.txt
 └── app.db
 ```
-config/agents.yaml: Configuration for the agents used in the crewAI workflow.
-config/tasks.yaml: Configuration for the tasks used in the crewAI workflow.
-src/python/crew.py: Main script defining the agents, tasks, and crew for the crewAI workflow.
-src/python/app.py: Main application script for running the task manager.
-src/python/init_db.py: Script to initialize the SQLite database.
-requirements.txt: List of Python dependencies.
+1. **config/agents.yaml: Configuration for the agents used in the crewAI workflow.**
+2. **config/tasks.yaml: Configuration for the tasks used in the crewAI workflow.**
+3. **src/python/crew.py: Main script defining the agents, tasks, and crew for the crewAI workflow.**
+4. **src/python/app.py: Main application script for running the task manager.**
+5. **src/python/init_db.py: Script to initialize the SQLite database.**
+6. **requirements.txt: List of Python dependencies.**
